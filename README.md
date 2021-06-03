@@ -25,10 +25,11 @@ Access with browser to: http://127.0.0.1:5000/
 
 ### Tax bands configurations
 The tax bands can be configurated on JSON file tax_bands.json
+```
 "rate": is the band rate 
 "top": is the maximum value of the band 
 "bottom": is the minimum value of the band
-
+```
 # Income tax endpoint
 
 
