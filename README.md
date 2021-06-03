@@ -37,10 +37,8 @@ POST http://127.0.0.1:5000/income-tax
 
 REQUEST
 ```json
-{
-     
-"income": "52000"
-
+{     
+    "income": "52000"
 }
 ```
 
