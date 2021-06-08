@@ -1,5 +1,3 @@
-
-
 class TaxCalculation:
 
     def __init__(self, tax_bands):
@@ -14,7 +12,8 @@ class TaxCalculation:
         for band in self.tax_bands:
             if income - band['bottom'] <= 0:
                 break
-            if income > band['top']:
+
+            if 'top' in band and income > band['top']:
                 tax += band['rate'] * (band['top'] - band['bottom'])
 
             else:
